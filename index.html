@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Widget</title>
+    <link href="fonts/ALSSchlangesans-Black.woff2" rel="preload" as="font">
+    <link href="fonts/ALSSchlangesans-Black.woff" rel="preload" as="font">
+    <link href="fonts/MyriadPro-Regular.woff" rel="preload" as="font">
+    <link href="fonts/RotondaC.woff" rel="preload" as="font">
+    <link href="fonts/RotondaC-Bold.woff" rel="preload" as="font">
+    <link href="fonts/CentSchbkCyrillBT.ttf" rel="preload" as="font">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="widget">
+      <header class="widget-header">
+        <h2 class="widget-header__title">Ваш заказ №<span class="widget-header__order">1890998</span> принят и находится в обработке </h2>
+        <button class="widget__close"></button>
+      </header>
+      <div class="widget-body">
+        <div class="widget-body__discount">
+          <span>10%</span>
+        </div>
+        <div class="widget-body__message">
+          <p class="widget-body__message--client-name">Михаил Иванович!</p>
+          <p class="widget-body__message--text">подарите друзьям скидку в&nbsp;"CompanyName" и получите скидку в подарок, за каждого друга</p>
+        </div>
+        <ul class="widget-body__social-list">
+          <li class="widget-body__social-item">
+            <a class="social-item social-item--classmates" href="#" aria-label="Мы в Одноклассниках"></a>
+          </li>
+          <li class="widget-body__social-item">
+            <a class="social-item social-item--facebook" href="#" aria-label="Мы в Facebook"></a>
+          </li>
+          <li class="widget-body__social-item">
+            <a class="social-item social-item--twitter" href="#" aria-label="Мы в twitter"></a>
+          </li>
+          <li class="widget-body__social-item">
+            <a class="social-item social-item--vkontakte" href="#" aria-label="Мы в Вконтакте"></a>
+          </li>
+        </ul>
+        <form class="share" action="#" method="post">
+          <input class="share__email" type="email" name="mail" value="" placeholder="E-mail друзей" aria-label="Введите email вашего друга">
+          <textarea class="share__text-message" name="message" rows="8" cols="80" aria-label="Напишите сообщение">
+Хороший ассортимент и цены
+в %site_name%. Только что после
+покупки  подарили скидку
+%friend_reward% для моих друзей!
+
+Времени мало, Вперёд</textarea>
+          <button class="share__submit" type="submit" name="submit">Отправить</button>
+        </form>
+      </div>
+      <footer class="widget-footer">
+        <div class="widget-footer__wrapper">
+          <a class="widget-footer__link" href="#">http://floctoryblablabla/#######</a>
+        </div>
+        <a class="widget-footer__rule" href="#">Правила акции</a>
+        <a class="widget-footer__user-agreement" href="#">Пользовательское соглашение</a>
+      </footer>
+    </section>
+  </body>
+</html>
